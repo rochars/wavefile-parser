@@ -424,7 +424,7 @@ export class WaveFileParser extends WaveFileReader {
  * @param {number} maxSize the max size of the string.
  * @param {boolean} fixedSize If the string is of fixed size or not.
  * @return {!Array<number>} The packed string.
- * @private.
+ * @private
  */
 function writeString(str, maxSize, fixedSize=true) {
   /** @type {!Array<number>} */   
