@@ -154,6 +154,9 @@ export class WaveFileParser extends WaveFileReader {
         writeString(
           this.bext.codingHistory, this.bext.codingHistory.length));
     }
+    if (bytes.length % 2) {
+      bytes.push(0);
+    }
     return bytes;
   }
 

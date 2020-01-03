@@ -1,6 +1,6 @@
 {
   "name": "wavefile-parser",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Read and write wav files.",
   "homepage": "https://github.com/rochars/wavefile-parser",
   "author": "Rafael da Silva Rocha <rocha.rafaelsilva@gmail.com>",
